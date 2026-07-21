@@ -39,6 +39,6 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local Blatant = Window:CreateTab("Blatant") -- Title, Image
+--local Blatant = Window:CreateTab("Blatant") -- Title, Image
 
 Rayfield:LoadConfiguration()
