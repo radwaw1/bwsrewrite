@@ -39,6 +39,9 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
---local Blatant = Window:CreateTab("Blatant") -- Title, Image
+local Blatant = Window:CreateTab("Blatant") -- Title, Image
+local Section = Tab:CreateSection("Section Example")
+local Divider = Tab:CreateDivider()
+local Section2 = Tab:CreateSection("Section Example")
 
 Rayfield:LoadConfiguration()
