@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet("https://sirius.menu/gen2"))()
 
 local window = Rayfield:CreateWindow({
     name = "shitty script of doom & despair",
-    subtitle = "by aaaaaaaa",
+    subtitle = "V3.1",
     theme = "cobalt",
     configuration = {
         autoSave = true,
@@ -18,7 +18,7 @@ local Blatant = window:CreateTab({ name = "Blatant", icon = 93364949241311 })
 Home:CreateButton({
     name = "Blatant",
     callback = function()
-        tab:Select(Blatant)
+        tab:Select("Blatant")
     end,
 })
 
