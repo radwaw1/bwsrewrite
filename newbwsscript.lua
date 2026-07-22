@@ -22,6 +22,13 @@ Home:CreateButton({
     end,
 })
 
+Home:CreateButton({
+    name = "Self-Destruct",
+    callback = function()
+        Unload()
+    end,
+})
+
 Blatant:CreateToggle({
     name = "Auto Sprint",
     callback = function(value)
