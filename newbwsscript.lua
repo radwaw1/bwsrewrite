@@ -13,15 +13,16 @@ local window = Rayfield:CreateWindow({
 })
 
 local Home = window:CreateTab({ name = "Home", icon = 93364949241311 })
+local Blatant = window:CreateTab({ name = "Blatant", icon = 93364949241311 })
 
 Home:CreateButton({
-    name = "Say hello",
+    name = "Blatant",
     callback = function()
-        window:Notify({ title = "Hello", content = "Your first element works." })
+        Navigate(Blatant)
     end,
 })
 
-Home:CreateToggle({
+Blatant:CreateToggle({
     name = "Auto Sprint",
     callback = function(value)
         print("Auto Sprint:", value)
