@@ -18,7 +18,7 @@ local Blatant = window:CreateTab({ name = "Blatant", icon = 93364949241311 })
 Home:CreateButton({
     name = "Blatant",
     callback = function()
-        Navigate(Blatant)
+        tab:Select(Blatant)
     end,
 })
 
